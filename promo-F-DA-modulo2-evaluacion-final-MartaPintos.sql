@@ -114,7 +114,7 @@ SELECT `a`.`first_name`, `a`.`last_name`
 LEFT JOIN `film_actor` AS `fac`
 	ON `fac`.`actor_id` = `a`.`actor_id`
     GROUP BY `a`.`actor_id`, `fac`.`actor_id` 
-	HAVING COUNT(fac.actor_id) = 0; -- No hay ningún actor que no aparezca en ambas tablas. 
+	HAVING COUNT(`fac`.`actor_id`) = 0; -- No hay ningún actor que no aparezca en ambas tablas. 
     
 /* 16. Encuentra el título de todas las películas que fueron lanzadas entre el año 2005 y 2010.*/
 SELECT `title`
