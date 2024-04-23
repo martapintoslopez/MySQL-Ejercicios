@@ -1,4 +1,4 @@
-# promo-F-DA-modulo2-evaluacion-final-MartaPintos
+# MySQL
 
 Este repositorio contiene queries de MySQL que dan respuesta a una serie de ejercicios (recogidos al final de este documento) sobre la base de datos sakila que simula una tienda de alquiler de películas. Contiene tablas como film (películas), actor (actores), customer (clientes), rental (alquileres), category (categorías), entre otras.
 
